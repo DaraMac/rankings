@@ -1,1 +1,3 @@
 # Media Rankings
+
+[Albums](albums)
