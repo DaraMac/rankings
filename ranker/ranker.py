@@ -1,2 +1,2 @@
 import pandas as pd
-albums = pd.read_csv("../albums.csv")
+albums = pd.read_csv("../Albums.csv")
