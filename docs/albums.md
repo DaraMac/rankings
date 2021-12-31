@@ -1,5 +1,4 @@
 My albums of the year 2021
-
                                                 Album                 Artist  Tier
 1.                                           Dedicated       Carly Rae Jepsen     1
 2.                                                Tusk          Fleetwood Mac     1
