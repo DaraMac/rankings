@@ -6,4 +6,11 @@ albums_ranked = albums[albums["Date Listened"].str.contains("2021")].sort_values
 # albums_ranked.reset_index(inplace=True)
 albums_ranked = albums_ranked[["Album", "Artist", "Tier"]]
 albums_ranked.insert(0, "Rank Order", [str(i)+'.' for i in range(len(albums_ranked))])
-print(albums_ranked.to_string(index=False))
+
+def albumer(n):
+    return str(n) + " by"
+
+def artister(n):
+    return str(n) + ","
+
+print(albums_ranked.to_string(index=False, header=False, formatters=[str, albumer, artister, str]))
