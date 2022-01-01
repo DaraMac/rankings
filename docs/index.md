@@ -1,4 +1,4 @@
 # Media Rankings
 
-[Albums](albums)
-[Books](books)
+- [Albums](albums)
+- [Books](books)
